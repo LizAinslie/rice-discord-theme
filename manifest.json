@@ -1,16 +1,16 @@
 {
-  "id": "dev.replugged.ThemeTemplate",
-  "name": "Theme Template",
-  "description": "A theme template",
+  "id": "dev.lizainslie.RiceTheme",
+  "name": "Lizzy's Rice Theme",
+  "description": "My personal theme, to match my Linux rice",
   "author": {
-    "name": "replugged",
-    "discordID": "1000992611840049192",
-    "github": "replugged-org"
+    "name": "Lizzy",
+    "discordID": "543542278967394322",
+    "github": "LizAinslie"
   },
-  "version": "1.0.2",
+  "version": "0.0.1",
   "updater": {
     "type": "github",
-    "id": "replugged-org/theme-template"
+    "id": "LizAinslie/rice-discord-theme"
   },
   "license": "MIT",
   "type": "replugged-theme",
