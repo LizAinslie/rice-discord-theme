@@ -49,6 +49,8 @@
 
 [data-popout-root],
 html {
+  --brand-experiment-400: #a97594;
+  --brand-experiment-500: #a97594;
   --brand-experiment: #a97594;
   --brand-experiment-560: #9e6386;
   --brand-experiment-600: #9e6386;
@@ -79,6 +81,15 @@ body,
 .lookOutlined-3yKVGo.colorRed-rQXKgM:hover {
   color: #ffffff;
   border-color: var(--theme-red);
+  background-color: var(--theme-red);
+}
+
+/* red filled button */
+.lookFilled-yCfaCM.colorRed-rQXKgM {
+  background-color: var(--theme-red);
+}
+
+.lookFilled-yCfaCM.colorRed-rQXKgM:hover {
   background-color: var(--theme-red);
 }
 
@@ -120,6 +131,11 @@ body,
 .container-3XgAHv {
   background: transparent;
   margin: calc(var(--theme-gap) / 2);
+}
+
+/* "no one else is here yet" tile in calls */
+.tile-2TcwiO {
+  background-color: var(--theme-background);
 }
 
 /* guild list */
@@ -375,7 +391,7 @@ body,
 
 /* VC pop-out chat */
 .chat-1-OBC7 {
-  background-color: var(--theme-section);
+  background-color: var(--theme-background);
   border-radius: var(--theme-corner);
 }
 
@@ -422,6 +438,119 @@ body,
 
 .divider-2rZFJK {
   --divider-color: var(--theme-red);
+}
+
+/* brand color text */
+.colorBrand-3cPPsm {
+  color: var(--brand-experiment);
+}
+
+/* checkboxes & radio */
+.colorDefault-CDqZdO .checkbox-hADx5o,
+.colorDefault-CDqZdO .radioSelection-1UHp0b {
+  color: var(--brand-experiment);
+}
+
+/* call actions */
+.button-1EGGcP.buttonColor-3bP3fX {
+  background-color: var(--theme-background);
+}
+
+.button-1EGGcP.buttonColor-3bP3fX:hover {
+  background-color: var(--brand-experiment);
+}
+
+/* modal root */
+.root-g14mjS {
+  background-color: var(--theme-background);
+}
+
+/* modal footer */
+.footer-31IekZ {
+  background-color: var(--theme-section);
+}
+
+/* modal "card" controls */
+.card-m7VgZ8 {
+  background-color: var(--theme-section);
+  border: none;
+}
+
+/* share screen quality */
+.qualitySettingsContainer-2LjkfM {
+  border-radius: var(--theme-corner);
+  background-color: var(--theme-section);
+  border: none;
+  padding: 2px 8px 8px;
+}
+
+.qualitySettingsContainer-2LjkfM .selectorButton-3fWZ0_ {
+  background-color: var(--theme-background);
+}
+
+.qualitySettingsContainer-2LjkfM .selectorButton-3fWZ0_:hover {
+  background-color: var(--theme-section);
+}
+
+.qualitySettingsContainer-2LjkfM .selectorButtonSelected-3cQUnj {
+  background-color: var(--brand-experiment);
+}
+
+.qualitySettingsContainer-2LjkfM .item-2OyinQ {
+  border: none;
+}
+
+/* select dropdowns */
+.lookFilled-GPyucw.select-Zz0IcO {
+  background-color: var(--theme-background);
+  border: none;
+}
+
+.popout-15UxD6 {
+  background-color: var(--theme-background);
+  border: none;
+}
+
+.option-Uc12mm[aria-selected="true"]:not(.option-Uc12mm.multi-2vPqc4) {
+  background-color: var(--theme-section);
+  color: var(--brand-experiment);
+}
+
+.option-Uc12mm.focused-10mbp-,
+.option-Uc12mm:focus,
+.option-Uc12mm:hover {
+  background-color: var(--theme-section);
+  color: var(--interactive-normal);
+}
+
+/* activities modal */
+.modalHeader-3X0A4K {
+  background-color: transparent;
+}
+
+.scrollTierBackground-BnWR8k {
+  background-color: transparent;
+}
+
+.activityItem-1Z9CTr {
+  box-shadow: none;
+  background-color: var(--theme-section);
+  border-radius: var(--theme-corner);
+}
+
+.activityItem-1Z9CTr:hover {
+  background-color: var(--theme-section);
+}
+
+/* emoji popout */
+.popoutContainer-2wbmiM {
+  border-radius: var(--theme-corner);
+  box-shadow: none;
+}
+
+/* emoji popout section */
+.emojiSection-3QtaWO {
+  background-color: var(--theme-section);
 }
 
 /* 
