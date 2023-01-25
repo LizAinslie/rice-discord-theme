@@ -25,8 +25,8 @@
   --channels-default: #ffffff;
   --text-normal: #ffffff;
   /*--interactive-normal: #e3786c;
-  --activity-card-background: #24292f;
-  --background-floating: #24292f; */
+  --activity-card-background: #24292f; */
+  --background-floating: var(--theme-background);
   --channeltextarea-background: var(--theme-section);
   --scrollbar-auto-thumb: var(--theme-section);
   --scrollbar-auto-track: var(--theme-background);
@@ -47,15 +47,16 @@
 [data-popout-root],
 html {
   --brand-experiment: #a97594;
-  --brand-experiment-560: #dd5e4f;
-  --brand-experiment-600: #dd5e4f;
+  --brand-experiment-560: #9e6386;
+  --brand-experiment-600: #9e6386;
 }
 
 .appMount-2yBXZl,
 body,
 .bg-1QIAus,
 .wrapper-1_HaEi,
-.app-2CXKsg {
+.app-2CXKsg,
+.container-2RRFHK {
   background-color: var(--theme-background);
 }
 
@@ -65,6 +66,17 @@ body,
 
 .base-2jDfDU {
   margin-right: var(--theme-gap);
+}
+
+/* red outline btn */
+.lookOutlined-3yKVGo.colorRed-rQXKgM {
+  border-color: var(--theme-red);
+}
+
+.lookOutlined-3yKVGo.colorRed-rQXKgM:hover {
+  color: #ffffff;
+  border-color: var(--theme-red);
+  background-color: var(--theme-red);
 }
 
 /* embeds */
@@ -198,21 +210,14 @@ body,
   background-color: transparent;
 }
 
+/* member list */
 .members-3WRCEx {
   background-color: var(--theme-section);
   border-radius: var(--theme-corner);
 }
 
+/* member list member */
 .member-48YF_l {
-  background-color: transparent;
-}
-
-.lookFilled-yCfaCM.colorBrand-I6CyqQ {
-  border: 1px solid var(--brand-experiment);
-}
-
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
-  border-color: white;
   background-color: transparent;
 }
 
@@ -319,6 +324,78 @@ body,
 .wrapper-1gVUIN {
   background-color: var(--theme-section);
   border-radius: var(--theme-corner);
+}
+
+/* loading messages */
+.wrapper-3HVHpV,
+.wrapper-15CKyy {
+  background-color: transparent;
+}
+
+/* new server "invite your friends" bullshit */
+.card-PQEqCK {
+  background-color: var(--theme-section);
+}
+
+/* update icon */
+.updateIconForeground-2V_zo4 {
+  fill: var(--theme-green-light);
+}
+
+/* slash in mute icon */
+.strikethrough-2Kl6HF {
+  fill: var(--theme-red);
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+  background-color: var(--theme-green-light);
+}
+
+/* VC pop-out chat */
+.chat-1-OBC7 {
+  background-color: var(--theme-section);
+  border-radius: var(--theme-corner);
+}
+
+.floating-3M3WeH {
+  filter: none;
+  border-left: none;
+}
+
+/* stupid fucking gradients */
+.gradientContainer-phMG8d {
+  display: none;
+}
+
+/* empty server list icons */
+.childWrapper-1j_1ub {
+  background-color: var(--theme-background);
+}
+
+/* server list folder icon */
+.folder-241Joy {
+  background-color: var(--theme-background);
+}
+
+/* empty channel hash icon */
+.emptyChannelIcon-1YdEz2 {
+  background-color: transparent;
+}
+
+/* server mute/deafen */
+.iconServer-GeSR0b {
+  color: var(--theme-red);
+}
+
+/* user controls server mute/deafen */
+.container-YkUktl .redIcon-1ppjsM {
+  color: var(--theme-red);
+}
+
+/* nagbar danger */
+.colorDanger-2YLzLC {
+  background-color: var(--theme-red);
+  color: #ffffff;
 }
 
 /* 
