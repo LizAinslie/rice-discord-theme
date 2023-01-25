@@ -13,6 +13,9 @@
   --theme-blue-light: #5c6b92;
 
   --theme-yellow: #f8b47c;
+
+  --brand-overlay-1: hsla(324, 23%, 65%, 0.08);
+  --brand-overlay-2: hsla(324, 23%, 65%, 0.2);
 }
 
 .theme-dark {
@@ -130,6 +133,11 @@ body,
   border-radius: var(--theme-corner);
 }
 
+/* reaction */
+.reaction-3vwAF2.reactionMe-1PwQAc {
+  background-color: var(--brand-overlay-2);
+}
+
 /* ctrl+k bar */
 .searchBar-3TnChZ {
   box-shadow: none;
@@ -208,6 +216,20 @@ body,
 
 .container-2o3qEW {
   background-color: transparent;
+}
+
+/* reply bar */
+.replyBar-1oi75v,
+.threadSuggestionBar-3ExSyc {
+  background-color: var(--theme-section);
+}
+
+/* reply-to highlight */
+.highlighted-1TaRLI,
+.replying-eZ7p5z,
+.message-2CShn3.replying-eZ7p5z.selected-2LX7Jy,
+.mouse-mode.full-motion .replying-eZ7p5z:hover {
+  background-color: var(--brand-overlay-1);
 }
 
 /* member list */
