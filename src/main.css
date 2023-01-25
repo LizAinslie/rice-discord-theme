@@ -38,6 +38,7 @@
   --control-brand-foreground: #a97594;
   --text-warning: var(--theme-yellow);
   --text-link: var(--theme-blue-light);
+  --text-brand: #a97594;
   /* --text-link: #4f8896;
   --text-link-low-saturation: #4f8896;
   --interactive-hover: #ffffff;
@@ -213,6 +214,49 @@ body,
 
 .expandedFolderBackground-1kSAf6 {
   background-color: transparent;
+}
+
+/* message popout emoji button */
+.button-1zW0-r {
+  background-color: var(--theme-section);
+  border-radius: var(--theme-corner);
+}
+
+.button-1zW0-r:hover {
+  background-color: var(--theme-section);
+}
+
+/* context menu danger */
+.colorDanger-3n-KnP,
+.colorDanger-3n-KnP .checkbox-hADx5o,
+.colorDanger-3n-KnP .radioSelection-1UHp0b {
+  color: var(--theme-red);
+}
+
+.colorDanger-3n-KnP.focused-3qFvc8 {
+  background-color: var(--theme-red);
+}
+
+/* event modal */
+.header-1sd0RU {
+  background-color: transparent;
+  border-bottom: 1px solid var(--theme-section);
+}
+
+.input-3O04eu {
+  background-color: var(--theme-section);
+}
+
+.container-3zZkKh, /* stage channel upsell */
+.itemFilled-2Fo7lr /* first section radio list */ {
+  background-color: var(--theme-section);
+  border-radius: var(--theme-corner);
+}
+
+/* random shadow */
+.theme-dark .separator-2lLxgC {
+  box-shadow: none;
+  -webkit-box-shadow: none;
 }
 
 /* random shadows & garbage */
@@ -476,6 +520,17 @@ body,
   border: none;
 }
 
+/* select dropdowns */
+.lookFilled-GPyucw.select-Zz0IcO {
+  background-color: var(--theme-section);
+  border: none;
+}
+
+.popout-15UxD6 {
+  background-color: var(--theme-background);
+  border: none;
+}
+
 /* share screen quality */
 .qualitySettingsContainer-2LjkfM {
   border-radius: var(--theme-corner);
@@ -500,15 +555,8 @@ body,
   border: none;
 }
 
-/* select dropdowns */
-.lookFilled-GPyucw.select-Zz0IcO {
+.qualitySettingsContainer-2LjkfM .lookFilled-GPyucw.select-Zz0IcO {
   background-color: var(--theme-background);
-  border: none;
-}
-
-.popout-15UxD6 {
-  background-color: var(--theme-background);
-  border: none;
 }
 
 .option-Uc12mm[aria-selected="true"]:not(.option-Uc12mm.multi-2vPqc4) {
