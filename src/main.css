@@ -704,6 +704,24 @@ body,
   background-color: var(--theme-section);
 }
 
+/* autocomplete */
+.theme-dark .autocomplete-3NRXG8 {
+  background-color: var(--theme-section);
+}
+
+/* gift modal */
+.paymentNote-1JTD1J {
+  background-color: transparent;
+}
+
+.wrapper-wOVKdL {
+  background-color: transparent;
+}
+
+.body-2qXItL {
+  background-color: transparent;
+}
+
 /* 
 .checkboxWrapper-SkhIWG.checked-3_4uQ9 .checkbox-1ix_J3 svg path {
   fill: #a97594;
