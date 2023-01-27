@@ -144,7 +144,7 @@ body,
   width: 82px;
 }
 
-.scroller-3X7KbA {
+.theme-dark .scroller-3X7KbA {
   margin: calc(var(--theme-gap) / 2);
   background-color: var(--theme-section);
   border-radius: var(--theme-corner);
@@ -474,6 +474,11 @@ body,
   color: var(--theme-red);
 }
 
+/* user controls */
+.theme-dark .container-YkUktl {
+  background: transparent;
+}
+
 /* nagbar danger */
 .colorDanger-2YLzLC {
   background-color: var(--theme-red);
@@ -599,6 +604,22 @@ body,
 /* emoji popout section */
 .emojiSection-3QtaWO {
   background-color: var(--theme-section);
+}
+
+/* chat content */
+.chatContent-3KubbW {
+  background: transparent;
+}
+
+/* sidebar background */
+.sidebar-1tnWFu,
+.theme-dark .container-1NXEtd {
+  background: transparent;
+}
+
+/* call controls */
+.container-1zzFcN {
+  background: var(--theme-section);
 }
 
 /* 
