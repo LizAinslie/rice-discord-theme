@@ -179,8 +179,13 @@ body,
   height: 48px;
 }
 
-.scroller-1ox3I2,
+.scroller-1ox3I2 {
+  border-radius: var(--theme-corner);
+  margin: var(--theme-gap) 0;
+}
+
 .theme-dark .scroller-WSmht3 {
+  background-color: var(--theme-section);
   border-radius: var(--theme-corner);
   margin: var(--theme-gap) 0;
 }
@@ -189,6 +194,10 @@ body,
 .bannerImg-2PzH6z {
   border-top-left-radius: var(--theme-corner);
   border-top-right-radius: var(--theme-corner);
+}
+
+.animatedContainer-2laTjx {
+  box-shadow: none;
 }
 
 .panels-3wFtMD {
@@ -230,6 +239,11 @@ body,
 
 .colorDanger-3n-KnP.focused-3qFvc8 {
   background-color: var(--theme-red);
+}
+
+/* channel search bar */
+.searchBar-jGtisZ {
+  background-color: var(--theme-background);
 }
 
 /* event modal */
