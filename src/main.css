@@ -180,7 +180,7 @@ body,
 }
 
 .scroller-1ox3I2,
-.scroller-WSmht3 {
+.theme-dark .scroller-WSmht3 {
   background-color: var(--theme-section);
   border-radius: var(--theme-corner);
   margin: var(--theme-gap) 0;
@@ -344,7 +344,8 @@ body,
 }
 
 /* now playing cards */
-.wrapper-2RrXDg {
+.wrapper-2RrXDg,
+.theme-dark .outer-2JOHae.interactive-2zD88a:hover {
   background-color: var(--theme-section);
   border-radius: var(--theme-corner);
   border: none;
